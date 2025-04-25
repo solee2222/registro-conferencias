@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro UAM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>¡No te pierdas las conferencias que impulsarán tu carrera!</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="registro.html" class="activo">Registro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Formulario de Inscripción</h2>
+    <p class="intro">
+        Seleccioná la conferencia o conferencias a las que deseás asistir.
+    </p>
+
+    <form id="formulario-registro" action="#" method="post">
+      <label for="nombre">Nombre completo:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo institucional:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="carrera">Carrera:</label><br>
+      <input type="text" id="carrera" name="carrera" required><br><br>
+
+      <fieldset>
+        <legend>Seleccioná las conferencias a las que deseás asistir:</legend>
+        <input type="checkbox" id="github" name="conferencias" value="GitHub">
+        <label for="github">Uso de GitHub en proyectos colaborativos</label><br>
+
+        <input type="checkbox" id="docker" name="conferencias" value="Docker">
+        <label for="docker">Introducción a Docker para entornos de desarrollo</label><br>
+
+        <input type="checkbox" id="linux" name="conferencias" value="Linux">
+        <label for="linux">Configuración básica de servidores Linux</label><br>
+      </fieldset><br>
+
+      <input type="submit" value="Registrarse">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; Universidad Americana - 2025</p>
+  </footer>
+</body>
+</html>
