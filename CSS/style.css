@@ -1,0 +1,315 @@
+body {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f7;
+    color: #222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+header h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 3rem;
+    color: #004080; 
+    font-weight: 700; 
+    margin: 0;
+    text-align: center; 
+  }
+
+header {
+    width: 100%;
+    background-color: #ffffff; 
+    color: #222; 
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    position: relative;
+    border-bottom: 8px solid #0099a8; 
+    text-align: center; 
+}
+
+.header-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    height: 120px;
+  }
+  .header-content h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #004080;
+    text-align: center;
+  }
+
+.header-image {
+    height: 120px; 
+    width: auto; 
+    margin-left: 20px; 
+  }
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+.menu li {
+    margin: 10px 15px;
+  }
+  
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 30px;
+    background-color: #1976d2; 
+    transition: all 0.4s ease;
+  }
+  
+.menu a.active {
+    background-color: #ffffff;
+    color: #1976d2;
+    font-weight: bold;
+  }
+  
+.menu a:hover {
+    background-color: #64b5f6;
+    color: white;
+  }
+  
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px 15px; 
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+#mision-vision {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+.card {
+    background: #f9fbfd;
+    border: 1px solid #cfd8dc;
+    border-radius: 12px;
+    padding: 25px;
+    width: 45%;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+.card:hover {
+    transform: translateY(-5px);
+  }
+  
+.card h2 {
+    color: #1565c0;
+    margin-bottom: 12px;
+  }
+  
+.card p {
+    font-size: 1.05rem;
+    color: #555;
+  }
+  
+#descripcion {
+    margin-bottom: 50px;
+  }
+  
+#descripcion h2 {
+    color: #1565c0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+#descripcion p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  #carrusel img {
+    max-height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  #mision-vision .card {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 45%; 
+    text-align: center;
+  }
+  
+  #mision-vision .card h2 {
+    color: #004080; 
+    margin-bottom: 15px;
+  }
+  
+  #mision-vision .card p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+.evento {
+    background: #f9fbfd;
+    border: 1px solid #cfd8dc;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.evento:hover {
+    transform: translateY(-5px);
+}
+
+.evento h3 {
+    color: #004080;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.evento p {
+    font-size: 1.05rem;
+    color: #555;
+    text-align: justify;
+}
+
+.detalles {
+    font-size: 0.95rem;
+    color: #1976d2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#intro-eventos, #intro-registro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+#intro-eventos h2, #intro-registro h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1565c0;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+#intro-eventos p, #intro-registro p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+
+  #formulario-registro {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario-registro label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #004080;
+}
+
+#formulario-registro input[type="text"],
+#formulario-registro input[type="email"],
+#formulario-registro select {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #cfd8dc;
+    background: transparent;
+    font-size: 1rem;
+    color: #333;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.checkbox-group div {
+    margin-bottom: 10px;
+}
+
+#formulario-registro button {
+    padding: 15px;
+    background: #0099a8;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#formulario-registro button:hover {
+    background: #007e8c;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+footer {
+    width: 100vw; 
+    margin: 0;
+    background-color: #f7f7f7; 
+    color: #070000; 
+    text-align: center;
+    padding: 30px 20px; 
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border-top: 6px solid #0099a8;
+  }
+
+@media (max-width: 480px) {
+    body {
+      font-size: 0.95rem;
+    }.card {
+      padding: 20px;
+    }form {
+      padding: 20px;
+    }nav ul li a {
+      padding: 8px 16px;
+    }form button {
+      font-size: 1rem;
+    }#carrusel {
+      height: 200px;
+    }
+}
